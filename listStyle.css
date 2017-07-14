@@ -172,6 +172,8 @@ body
 	background-color:red;
 	text-transform: capitalize;
 	color: white;
+	transform:rotate(-360deg);
+	transition: 0.8s;
 }
 .sub1:hover
 {
@@ -194,6 +196,8 @@ body
 	background-color:red;
 	text-transform: capitalize;
 	color: white;
+	transform:rotate(-360deg);
+	transition: 0.8s;
 
 }
 .sub2:hover
@@ -216,6 +220,8 @@ body
 	background-color: green;
 	height:30px;
 	color:white;
+	transform:rotate(360deg);
+	transition: 0.8s;
 }
 .c1:hover
 {
@@ -236,6 +242,8 @@ body
 	background-color: green;
 	height:30px;
 	color:white;
+	transform:rotate(360deg);
+	transition: 0.8s;
 }
 .c2:hover
 {
