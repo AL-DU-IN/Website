@@ -20,7 +20,7 @@
 		private function add_to_database()
 		{
 			$link=@mysql_connect("localhost","root","") or die("Unable to connect");
-			$cursor=mysql_select_db("prototype");
+			$cursor=@mysql_select_db("prototype");
 			$this->filter_out_tags();
 			$this->filter_out_slashes();
 			$a="'".$this->destination."'";
@@ -29,8 +29,8 @@
 			$d="'".$this->phone_number."'";
 			$m="'".$this->journey_date."'";
 			$querys="INSERT INTO travelinfo (destination,source,name,number,date) VALUES ($a,$b,$c,$d,$m);";
-			mysql_query("$querys");
-			mysql_close($link_identifier = $link);
+			@mysql_query("$querys");
+			@mysql_close($link_identifier = $link);
 		}
 		private function filter_out_tags()
 		{
