@@ -1,4 +1,3 @@
-# Website
-My Project for July
-Currently has only the front end.
-Back end(which will be complete in a couple of days) will be done using PHP and MySql
+As of this branch the website is fully functional and complete.
+Javascript to be added in find.php
+Some nuances still to be addressed.
