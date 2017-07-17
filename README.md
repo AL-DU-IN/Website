@@ -1,4 +1,2 @@
-# Website
-My Project for July
-Currently has only the front end.
-Back end(which will be complete in a couple of days) will be done using PHP and MySql
+The website is complete and fully functional.
+After a 2-3 more days of testings and adressing the nuances the website will be 100% complete.
