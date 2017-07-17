@@ -20,7 +20,7 @@
 <input type="text" placeholder="To...." required class="destination" name="des"/>
 <input type="text" placeholder="From.." required class="source" name="source"/>
 <input type="date" placeholder="Date(29-08-17).." required class="date" name="datess"/>
-<input type="submit" value="Submit" class="sub1" onclick="window.location.href='find.php';"/>
+<input type="submit" value="Submit" class="sub1" "/>
 </form>
 <button class="c1" onclick="document.getElementById('1').style.display='none';document.getElementById('body').style.opacity=1;">Cancel</button>
 </div>
@@ -32,7 +32,7 @@
 <input type="text" placeholder="Your name." required class="name" name="aname"/>
 <input type="number" placeholder="Mob.no.." required class="mobno" name="amobno" max='9999999999' min='1000000000'/>
 <input type="date" placeholder="Date(29-08-17).." required class="adate"name="dates" maxlength="8"/>
-<input type="submit" value="Submit" class="sub2" /*onclick="window.location.href='add.php';"*//>
+<input type="submit" value="Submit" class="sub2" />
 </form>
 <button class="c2" onclick="document.getElementById('2').style.display='none';document.getElementById('body').style.opacity=1;">Cancel</button>
 
