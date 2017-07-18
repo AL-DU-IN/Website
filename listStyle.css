@@ -1,27 +1,16 @@
-.div1{
-	background-color: #FF9A00;
-	width:100%;
-	height: 100px;
-	text-align: center;
-	border-radius: 5px;
-	z-index: 1;
-}
-
-.welcome{
-	font: sans-serif;
-	padding-top: 30px;
+*{
+	box-sizing:border-box;
 }
 .b1
 {
 	border-radius: 5px;
 	width:40%;
 	height:50px;
-	/*margin-left:30%;
-	margin-top: 50px;*/
+	color:white;
 	position:absolute;
-	top: 300px;
+	top: 30%;
 	left: 30%;
-	background-color: palegreen;
+	background-color:#474444 ;
 	transition: 0.5s;
 	z-index:1;
 }
@@ -32,42 +21,40 @@
 	width:40%;
 	height:50px;
 	position:absolute;
-	top: 400px;
+	top:50%;
 	left: 30%;
-	/*margin-left:30%;
-	margin-top:100px;*/
+	color:white;
 	float:left;
 	/*margin-top:5%;*/
-	background-color: turquoise;
+	background-color: #474444;
 }
 .b1:hover
 {
-	width:40%;
-	height:75px;
-	/*margin-left:30%;
-	margin-top: 50px;*/
+	width:25%;
+	height:50px;
 	position:absolute;
-	top: 300px;
-	left: 30%;
+	top: 30%;
+	left: 38%;
 	background-color: palegreen;
 	border-radius:5px;
 	transition: 0.5s;
+	color:black;
 }
 .b2:hover
 {
 	transition:0.5s;
-	width:40%;
-	height:75px;
-	/*margin-left:30%;
-	margin-top:50px;*/
+	width:25%;
+	height:50px;
 	position:absolute;
-	top: 400px;
-	left: 30%;
+	top: 50%;
+	left: 38%;
 	background-color: turquoise;
+	color:black;
 }
 body
 {
-	background-color: white;
+	background-color: #E4E2E2;
+	animation: funimation 0.6s;
 }
 .welcome
 {
@@ -76,34 +63,31 @@ body
 .modal1
 {
 	position: absolute;
-	top:150px;
+	top:25%;
 	left:25%;
 	overflow: auto;
 	width:50%;
 	height: 360px;
 	opacity: 1;
-	background-color: turquoise;
-	/*margin-left: 25%;
-	margin-top:-15%;*/
+	background-color: white;
 	display: none;
 	border-radius:10px;
 	animation: funimation 0.6s;
 	z-index: 1;
+
 }
 .modal2
 {
 	z-index: 1;
 	position: absolute;
 	top:100px;
-	left:25%;
+	left:20%;
 	overflow: auto;
-	width:50%;
+	width:60%;
 	height: 470px;
 	opacity: 1;
-	background-color: palegreen;
-	/*margin-left: 25%;
-	margin-top:-15%;*/
-	display: none;
+	background-color: white;
+		display: none;
 	border-radius:10px;
 	animation: funimation 0.6s;
 }
@@ -114,7 +98,14 @@ body
 	margin-left:28%;
 	border-radius:3px;
 	height:35px;
-	width: 45%
+	width: 45%;
+	transition:0.5s;
+}
+.source:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .adestination
 {
@@ -124,6 +115,13 @@ body
 	height:35px;
 	width: 45%;
 	position: relative;
+	transition:0.5s;
+}
+.adestination:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .adate
 {
@@ -133,6 +131,13 @@ body
 	border-radius:3px;
 	height:35px;
 	width: 45%;
+	transition:0.5s;
+}
+.adate:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .asource
 {
@@ -143,6 +148,12 @@ body
 	height:35px;
 	width: 45%;
 }
+.asource:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
+}
 .name
 {
 	float:left;
@@ -151,6 +162,13 @@ body
 	border-radius:3px;
 	height:35px;
 	width: 45%;
+	transition:0.5s;
+}
+.name:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .destination
 {
@@ -160,6 +178,13 @@ body
 	height:35px;
 	width: 45%;
 	position: relative;
+	transition:0.5s;
+}
+.destination:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .date
 {
@@ -169,6 +194,13 @@ body
 	border-radius:3px;
 	height:35px;
 	width: 45%;
+	transition:0.5s;
+}
+.date:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .mobno
 {
@@ -178,6 +210,13 @@ body
 	border-radius:3px;
 	height:35px;
 	width: 45%;
+	transition:0.5s;
+}
+.mobno:focus
+{
+	border-right-color:red;
+	border-bottom-color:red;
+	transition:0.5s;
 }
 .sub1
 {
@@ -271,6 +310,107 @@ body
 	left:80%;
 	background-color: red;
 	color: white;
+}
+.container
+{
+	margin-left:19%;
+	margin-top: -10%;
+	width: 62%;
+	background-color: paleturquoise;
+	height: 500px;
+	display: none;
+	z-index: 4;
+}
+.images
+{
+	width: 100%;
+	height: 100%;	
+}
+.buts1
+{
+	width:100px;
+	height: 50px;
+	text-align: center;
+	border-top-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-bottom-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-style: 1;
+	padding-bottom: 1px;
+	transition: 0.5s
+}
+.buts2
+{
+	width:100px;
+	height: 50px;
+	text-align: center;
+	border-top-color: white;
+	border-left-color: black;
+	border-right-color: black;
+	border-bottom-color: black;
+	border-style: solid;
+	border-width: 2px;
+	border-style: 1;
+	padding-bottom: 1px;
+	transition: 0.5s;
+}
+.buts1:focus,.buts1:hover
+{
+	width:100px;
+	height: 50px;
+	text-align: center;
+	border-top-color: white;
+	border-left-color: red;
+	border-right-color: red;
+	border-bottom-color: red;
+	border-style: solid;
+	border-width: 2px;
+	border-style: 1;
+	padding-bottom: 1px;
+	background-color: white;
+	transition:0.5s;
+}
+.buts2:focus,.buts2:hover
+{
+	width:100px;
+	height: 50px;
+	text-align: center;
+	border-top-color: red;;
+	border-left-color: red;
+	border-right-color: red;
+	border-bottom-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-style: 1;
+	padding-bottom: 1px;
+	background-color: white;
+	transition:0.5s;
+}
+li
+{
+	display:inline;
+}
+ul
+{
+	padding-bottom: 2%;
+	margin-left:-2.5%;
+}
+.about
+{
+	animation: funimation 0.2s;
+}
+.developer
+{
+	display: none;
+	animation: funimation 0.2s;	
+}
+p{
+	font-size: 17px;
+	color: black;
+	font-family: arial;
+	margin-top: -20px;
 }
 @keyframes funimation
 {

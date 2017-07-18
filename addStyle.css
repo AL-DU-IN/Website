@@ -1,6 +1,6 @@
 body
 {
-	background-color: burlywood;
+	background-color: #E4E2E2;
 }
 button
 {
@@ -14,7 +14,8 @@ button
 	border-radius: 8px;
 	border-width:3px;
 	border-color: gold;
-	transition: 0.4s;s
+	transition: 0.4s;
+	animation: funimation 0.6s;
 }
 button:hover
 {
@@ -29,4 +30,10 @@ button:hover
 	border-width:3px;
 	border-color: gold;
 	transition:0.4s;
+	animation: funimation 0.6s;
+}
+@keyframes funimation
+{
+	from {transform:scale(0)}
+	to {transform:scale(1)}
 }

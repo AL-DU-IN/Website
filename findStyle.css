@@ -11,6 +11,7 @@
 	border-width:3px;
 	border-color: gold;
 	transition: 0.4s;
+	animation:funimation 0.6s;
 }
 .x2
 {
@@ -20,6 +21,17 @@
 	border-color: gold;
 	background-color: white;
 	color:black;
+	animation:funimation 0.6s;
+}
+.x3
+{
+	height:50px;
+	border-radius: 8px;
+	border-width:3px;
+	border-color: gold;
+	background-color: white;
+	color:black;
+	animation:funimation 0.6s;
 }
 .x1:hover
 {
@@ -42,11 +54,27 @@
 	border-width:3px;
 	border-color: gold;
 	background-color: white;
+	color:blue;
+	font-size: 16px;
+	transition: 0.4s
+}
+.x3:hover
+{
+	height:75px;
+	border-radius: 8px;
+	border-width:3px;
+	border-color: gold;
+	background-color: white;
 	color:green;
 	font-size: 16px;
 	transition: 0.4s
 }
 body
 {
-	background-color:burlywood;
+background-color:#E4E2E2;
+}
+@keyframes funimation
+{
+	from{transform:scale(0)}
+	to{transform:scale(1)}
 }

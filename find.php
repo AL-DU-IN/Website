@@ -58,9 +58,10 @@ class Find
 				</hr>
 				<button class='x2'>$b</button>
 				</hr>
-				<button class='x2'>$c</button>
+				<button class='x3'>$c</button>
 				</br>
 				</body>
+				</htmL>
 				";
 				$row=mysql_fetch_assoc($result);
 			}
